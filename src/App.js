@@ -30,7 +30,7 @@ function App() {
     const [searchMovie,setSearchMovie]= useState(movie)
     const handleSearch=(search)=>{
         setSearchMovie(movie.filter((item) => { return item.title.toLowerCase().includes(search.toLowerCase()); }))
-      setSearchMovie(movie.filter((item) => { return item.rating === search}));
+     // setSearchMovie(movie.filter((item) => { return item.rating === search}));
       }
 
     const addMovie=(film)=>{
