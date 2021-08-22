@@ -10,11 +10,14 @@ return (
           .map((movie) => (
             <div style={{textAlign:"center"}}>
             <h3>Movie name: {movie.title}</h3>
-            <iframe width="420" height="315"
+            <br></br>
+            <iframe width="560" height="315"
             src={movie.trailerLink} >
              </iframe> 
+
             </div>
           ))
+          
 );
 }
 export default Trailer;
