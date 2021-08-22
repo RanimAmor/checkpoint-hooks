@@ -1,3 +1,4 @@
+import MovieCard from './MovieCard';
 import { FormControl,Container,Form,Button} from "react-bootstrap";
 
 
@@ -27,6 +28,7 @@ const Filter = ({movies,FnSearch}) => {
         aria-label="Search"
       />
 </Form> 
+
      </Container>
     
     );
